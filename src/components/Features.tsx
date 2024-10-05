@@ -1,4 +1,3 @@
-import React from 'react'
 import { Wifi, CloudRain, Brain, Smartphone } from 'lucide-react'
 
 const features = [

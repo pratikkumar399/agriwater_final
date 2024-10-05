@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { Droplet } from 'lucide-react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Droplet } from 'lucide-react';
 
 const CommonHeader: React.FC = () => {
   return (
@@ -14,14 +14,14 @@ const CommonHeader: React.FC = () => {
           <ul className="flex space-x-6">
             <li><Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link></li>
             <li><Link to="/dashboard" className="text-gray-600 hover:text-blue-600">Dashboard</Link></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Features</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Pricing</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Contact</a></li>
+            <li><Link to="/features" className="text-gray-600 hover:text-blue-600">Features</Link></li>
+            <li><Link to="/PricingComponent" className="text-gray-600 hover:text-blue-600">Pricing</Link></li> 
+            <li><Link to="/ContactForm" className="text-gray-600 hover:text-blue-600">Contact Us</Link></li>
           </ul>
         </nav>
       </div>
     </header>
-  )
+  );
 }
 
-export default CommonHeader
+export default CommonHeader;
