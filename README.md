@@ -1,3 +1,7 @@
 # agriwater_final
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/pratikkumar399/agriwater_final)
+How to run the project
+
+> cd agriwater_final
+> npm install
+> npm run dev
