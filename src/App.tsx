@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard'
 import Home from './components/Home'
 import CommonFooter from './components/CommonFooter'
 import CommonHeader from './components/CommonHeader'
+import Blogs from './components/Blogs'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/blogs" element={<Blogs />} />
           </Routes>
         </main>
         <CommonFooter />

@@ -11,11 +11,11 @@ const LocationSelector: React.FC<LocationSelectorProps> = ({ location, setLocati
 
   return (
     <div className="flex items-center space-x-2">
-      <MapPin className="w-5 h-5 text-gray-500" />
+      <MapPin className="w-5 h-5 text-green-800" />
       <select
         value={location}
         onChange={(e) => setLocation(e.target.value)}
-        className="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"
+        className="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md bg-green-300"
       >
         {locations.map((loc) => (
           <option key={loc} value={loc}>

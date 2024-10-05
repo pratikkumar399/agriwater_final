@@ -17,7 +17,7 @@ const WaterUsageGraph: React.FC<WaterUsageGraphProps> = ({ location }) => {
         label: 'Water Usage (Liters)',
         data: [65000, 59000, 80000, 81000, 56000, 55000, 40000],
         fill: false,
-        borderColor: 'rgb(75, 192, 192)',
+        borderColor: 'rgb(38, 70, 83)',
         tension: 0.1
       }
     ]
@@ -37,7 +37,7 @@ const WaterUsageGraph: React.FC<WaterUsageGraphProps> = ({ location }) => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
+    <div className="bg-sky-200 p-6 rounded-lg shadow">
       <h2 className="text-xl font-semibold mb-4">Water Usage Graph</h2>
       <Line data={data} options={options} />
     </div>
