@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blogs() {
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-emerald-50 to-teal-100 px-20">
+    <div className="w-full bg-gradient-to-r from-emerald-50 to-teal-100 px-20 pb-10">
       <h2 className="text-5xl font-bold text-center text-blue-950 py-10 mb-12">Educational Blogs on Best Practices</h2>
       <div className='w-4/5 h-3/5  rounded-md shadow-md m-auto duration-500 hover:scale-105 bg-cyan-100 mb-20'>
         <img src="https://images.pexels.com/photos/2165688/pexels-photo-2165688.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-222549-2165688.jpg&fm=jpg" alt="" className='object-fit w-full h-64 rounded-t-md '/>
