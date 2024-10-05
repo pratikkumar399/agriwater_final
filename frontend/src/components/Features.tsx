@@ -1,11 +1,10 @@
-import React from 'react'
-import { Wifi, CloudRain, Brain, Smartphone } from 'lucide-react'
+import { BookOpen, Brain, CloudRain, Wifi } from 'lucide-react'
 
 const features = [
   { icon: Wifi, title: 'IoT Integration', description: 'Connect and monitor your farm\'s sensors in real-time.' },
   { icon: CloudRain, title: 'Atmospheric Data', description: 'Access NASA\'s extensive weather and climate datasets.' },
   { icon: Brain, title: 'Predictive Machine Learning', description: 'Forecast water needs and optimize irrigation schedules.' },
-  { icon: Smartphone, title: 'Mobile Platform', description: 'Manage your farm\'s water usage from anywhere, anytime.' },
+  { icon: BookOpen, title: 'Mobile Platform', description: 'Manage your farm\'s water usage from anywhere, anytime.' },
 ]
 
 const Features = () => {
