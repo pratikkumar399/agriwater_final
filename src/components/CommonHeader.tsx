@@ -14,7 +14,7 @@ const CommonHeader: React.FC = () => {
           <ul className="flex space-x-6">
             <li><Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link></li>
             <li><Link to="/dashboard" className="text-gray-600 hover:text-blue-600">Dashboard</Link></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Features</a></li>
+            <li><Link to="/blogs" className="text-gray-600 hover:text-blue-600">Blogs</Link></li>
             <li><a href="#" className="text-gray-600 hover:text-blue-600">Pricing</a></li>
             <li><a href="#" className="text-gray-600 hover:text-blue-600">Contact</a></li>
           </ul>

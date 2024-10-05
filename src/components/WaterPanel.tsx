@@ -15,7 +15,7 @@ const WeatherPanel: React.FC<WeatherPanelProps> = ({ location }) => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
+    <div className="bg-teal-200 p-6 rounded-lg shadow">
       <h2 className="text-xl font-semibold mb-4">Weather and Atmospheric Data for {location}</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="flex items-center space-x-2">

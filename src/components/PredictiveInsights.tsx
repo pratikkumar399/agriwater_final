@@ -13,7 +13,7 @@ const PredictiveInsights: React.FC<PredictiveInsightsProps> = ({ location }) => 
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
+    <div className="bg-cyan-200 p-6 rounded-lg shadow">
       <h2 className="text-xl font-semibold mb-4">Predictive Insights for {location}</h2>
       <div className="space-y-4">
         <div className="flex items-center space-x-4">

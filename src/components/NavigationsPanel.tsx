@@ -10,7 +10,7 @@ const NotificationsPanel: React.FC = () => {
   ];
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
+    <div className="bg-emerald-300 p-6 rounded-lg shadow">
       <h2 className="text-xl font-semibold mb-4">Notifications</h2>
       <div className="space-y-4">
         {notifications.map((notification) => (
