@@ -1,5 +1,4 @@
-import React from 'react'
-import { AlignEndHorizontal, Droplets, Bug, BookOpen } from 'lucide-react'
+import { AlignEndHorizontal, BookOpen, Bug, Droplets } from 'lucide-react'
 
 const features = [
   { icon: AlignEndHorizontal, title: 'Visualization & Alerts', description: 'Visualizes real-time and historical data (soil moisture, rainfall, groundwater) with location-specific alerts for droughts, floods, and extreme weather via SMS or email.' },
